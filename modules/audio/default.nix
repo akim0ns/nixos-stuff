@@ -1,0 +1,5 @@
+{
+  imports = [
+    ./pipewire/default.nix
+  ];
+}
