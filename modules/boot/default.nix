@@ -1,5 +1,6 @@
 {
   imports = [
-  ./limine/default.nix
+  ./limine
+  ./kernel
    ];
 }
