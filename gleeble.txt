@@ -1,0 +1,48 @@
+.
+├── configuration.nix
+├── flake.lock
+├── flake.nix
+├── gleeble.txt
+├── hardware-configuration.nix
+├── modules
+│   ├── apps
+│   │   ├── default.nix
+│   │   ├── discord
+│   │   │   ├── default.nix
+│   │   │   └── discord.nix
+│   │   ├── dunst
+│   │   │   ├── default.nix
+│   │   │   └── dunst.nix
+│   │   ├── git
+│   │   │   ├── config.nix
+│   │   │   ├── default.nix
+│   │   │   └── git.nix
+│   │   ├── nvf
+│   │   │   ├── default.nix
+│   │   │   └── nvf.nix
+│   │   ├── prism
+│   │   │   ├── default.nix
+│   │   │   └── prism.nix
+│   │   └── sway
+│   │       ├── default.nix
+│   │       └── sway.nix
+│   ├── audio
+│   │   ├── default.nix
+│   │   └── pipewire
+│   │       ├── default.nix
+│   │       └── pipewire.nix
+│   ├── boot
+│   │   ├── default.nix
+│   │   ├── kernel
+│   │   │   ├── blacklist.nix
+│   │   │   └── default.nix
+│   │   └── limine
+│   │       ├── default.nix
+│   │       └── limine.nix
+│   ├── default.nix
+│   └── system
+│       ├── default.nix
+│       └── lix
+│           ├── default.nix
+│           └── lix.nix
+└── README.md

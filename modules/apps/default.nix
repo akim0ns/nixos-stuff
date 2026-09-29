@@ -6,5 +6,6 @@
     ./sway
     ./git
     ./nvf
+    ./kdekate
   ];
 }
