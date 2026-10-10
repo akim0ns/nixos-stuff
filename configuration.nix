@@ -12,7 +12,7 @@
     ];
 
   # Use latest kernel.
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+ # boot.kernelPackages = pkgs.linuxPackages_latest;
 
   networking.networkmanager.enable = true;
 
@@ -37,6 +37,11 @@
    };
 
    programs.firefox.enable = true;
+   
+
+   fonts.packages = with pkgs; [
+   inputs.poisson.packages.x86_64-linux.default
+  ];
 
   # List packages installed in system profile.
   # You can use https://search.nixos.org/ to find more packages (and options).
