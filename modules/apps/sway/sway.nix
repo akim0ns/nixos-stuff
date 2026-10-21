@@ -6,7 +6,7 @@ programs.sway = {
   wrapperFeatures.gtk = true;
 };
 programs.sway.extraPackages = [
-pkgs.xfce4-terminal
+pkgs.foot
 pkgs.swayidle
 pkgs.swaylock
 pkgs.wlr-randr
