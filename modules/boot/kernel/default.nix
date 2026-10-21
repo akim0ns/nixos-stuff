@@ -1,7 +1,7 @@
 
 {
   imports = [
-  ./blacklist.nix
   ./kernel.nix
+  ./patches.nix
    ];
 }
